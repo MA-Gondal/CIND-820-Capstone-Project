@@ -32,6 +32,7 @@ for procurement planners in global health supply chains.
 ---
 
 ## Repository Structure
+```
 CIND820-Capstone-Project/
 ├── data/
 │   ├── raw/          ← original downloaded CSV (not committed)
@@ -44,7 +45,7 @@ CIND820-Capstone-Project/
 ├── ai_use_declaration.md
 └── README.md
 
----
+```
 
 ## How to Run
 1. Download the dataset from the Kaggle link above and place CSV in `/data/raw/`
