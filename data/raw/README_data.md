@@ -22,7 +22,8 @@
 this is the original Kaggle uploader's filename. Keep it as-is to match 
 the file path referenced in the notebooks.
 
-## Why the Raw Data is Not Committed
+## Note on Raw Data
 
-The CSV file (approximately 3MB) is excluded from this repository.
-Download it directly from Kaggle using the link above.
+The CSV file (`Suppy_Chain_Shipment_Data.csv`) is committed to this repository
+for reproducibility purposes. If the file is unavailable, it can also be
+downloaded directly from the Kaggle URL above.
