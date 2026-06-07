@@ -26,9 +26,6 @@ for procurement planners in global health supply chains.
 - **Source:** https://www.kaggle.com/datasets/princehobby/supply-chain-shipment-dataset
 - **Records:** 10,324 rows, 33 columns
 - **Coverage:** 2006–2015, 70+ countries
-- **Note:** Raw data is not committed to this repository due to file size.
-  Download from the link above and place in `/data/raw/`
-
 ---
 
 ## Repository Structure
@@ -58,7 +55,7 @@ CIND820-Capstone-Project/
 | Milestone | Status | Description |
 |---|---|---|
 | M1 — Design & Strategy | ✅ Complete | Problem framing, dataset, RQs, ethics |
-| M2 — Architecture & Data Audit | 🔄 In Progress | EDA, pipeline, literature review |
+| M2 — Architecture & Data Audit | ✅ Complete | EDA, pipeline, literature review |
 | M3 — Initial Results | ⏳ Upcoming | Baseline model, metrics, validation |
 | M4 — Final Results | ⏳ Upcoming | Full report, model comparison |
 | M5 — Presentation | ⏳ Upcoming | Live demo and Q&A |
