@@ -32,21 +32,24 @@ for procurement planners in global health supply chains.
 ```
 CIND820-Capstone-Project/
 ├── data/
-│   ├── raw/          ← original downloaded CSV (not committed)
-│   └── processed/    ← cleaned and feature-engineered data
-├── notebooks/        ← Jupyter notebooks by milestone
+│   ├── raw/              ← USAID SCMS CSV + README_data.md
+│   └── processed/        ← cleaned and feature-engineered data (M3+)
+├── docs/                 ← pipeline diagram
+├── notebooks/            ← Jupyter notebooks by milestone
 ├── outputs/
-│   ├── figures/      ← saved plots and charts
-│   └── reports/      ← HTML profiling report
-├── docs/             ← pipeline diagram and architecture notes
+│   ├── figures/          ← saved plots and charts
+│   ├── models/           ← saved model artifacts (M3+)
+│   ├── reports/          ← HTML profiling report
+│   └── tables/           ← evaluation tables (M4+)
+├── src/                  ← modular Python scripts (M3+)
 ├── ai_use_declaration.md
+├── requirements.txt
 └── README.md
-
 ```
 
 ## How to Run
 1. Download the dataset from the Kaggle link above and place CSV in `/data/raw/`
-2. Install dependencies: `pip install pandas numpy matplotlib seaborn scipy ydata-profiling xgboost scikit-learn shap`
+2. Install dependencies: pip install -r requirements.txt
 3. Open and run `/notebooks/M2_EDA.ipynb` from top to bottom
 
 ---
