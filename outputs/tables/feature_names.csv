@@ -1,0 +1,155 @@
+feature
+freight cost_imputed
+weight_imputed
+log1p_freight cost (usd)
+log1p_weight (kilograms)
+log1p_line item value
+line item quantity
+shipment mode_Air
+shipment mode_Air Charter
+shipment mode_Ocean
+shipment mode_Truck
+shipment mode_Unknown
+vendor_ABBOTT LABORATORIES (PUERTO RICO)
+vendor_ABBOTT LOGISTICS B.V.
+vendor_ABBVIE LOGISTICS (FORMERLY ABBOTT LOGISTICS BV)
+"vendor_ABBVIE, SRL (FORMALLY ABBOTT LABORATORIES INTERNATIONAL CO.)"
+vendor_ACCOUN NIGERIA LIMITED
+vendor_ACOUNS NIGERIA LTD
+vendor_ACTION MEDEOR E.V.
+vendor_AHN (PTY) LTD (AKA UCB (S.A.)
+vendor_AMSTELFARMA B.V.
+vendor_ASPEN PHARMACARE
+vendor_AUROBINDO PHARAM (SOUTH AFRICA)
+vendor_Abbott GmbH & Co. KG
+vendor_Aurobindo Pharma Limited
+vendor_B&C GROUP S.A.
+vendor_BIO-RAD LABORATORIES (FRANCE)
+vendor_BIOLYTICAL LABORATORIES INC.
+vendor_BRISTOL-MYERS SQUIBB
+vendor_BUNDI INTERNATIONAL DIAGNOSTICS LTD
+vendor_CENTRAL PHARMACEUTICAL COMPANY NO. 1
+"vendor_CHEMBIO DIAGNOSTIC SYSTEMS, INC."
+vendor_CIPLA LIMITED
+vendor_EMCURE PHARMACEUTICALS LTD
+vendor_ETHNOR DEL ISTMO S.A.
+vendor_EY Laboratories
+"vendor_GILEAD SCIENCES IRELAND, INC."
+vendor_GLAXOSMITHKLINE EXPORT LIMITED
+vendor_HETERO LABS LIMITED
+vendor_HUMAN GMBH
+vendor_Hoffmann-La Roche ltd Basel
+vendor_IDA FOUNDATION
+vendor_IDIS LIMITED
+vendor_IMRES B.V.
+vendor_INTERNATIONAL HEALTHCARE DISTRIBUTORS
+vendor_INVERNESS MEDICAL INNOVATIONS HONG KONG LTD
+vendor_INVERNESS MEDICAL INNOVATIONS SOUTH AFRICA (PTY) LTD
+vendor_JANSSEN SCIENCES IRELAND UC (FORMERLY JANSSEN R&D IRELAND)
+"vendor_JSI R&T INSTITUTE, INC."
+vendor_KAS MEDICS LIMITED
+vendor_LAWRENCE LABORATORIES (SUBSIDIARY OF BRISTOL MYERS SQUIBB)
+vendor_MEDMIRA EAST AFRICA LTD.
+vendor_MERCK SHARP & DOHME IDEA GMBH (FORMALLY MERCK SHARP & DOHME B.V.)
+vendor_MICRO LABS LIMITED
+vendor_MISSIONPHARMA A/S
+"vendor_MSD LATIN AMERICA SERVICES, S. DE R.L. DE C.V."
+vendor_MYLAN LABORATORIES LTD (FORMERLY MATRIX LABORATORIES)
+vendor_NOVARTIS PHARMA SERVICES AG
+vendor_Orasure Technologies Inc.
+"vendor_Orgenics, Ltd"
+vendor_PHARMACY DIRECT
+vendor_PLURIPHARM S.A.
+vendor_Premier Medical Corporation Ltd.
+"vendor_RAININ INSTRUMENT, LLC."
+vendor_RANBAXY Fine Chemicals LTD.
+vendor_REINBOLD EXPORT IMPORT
+vendor_S. BUYS WHOLESALER
+vendor_SCMS from RDC
+vendor_SETEMA LIMITED PLC
+"vendor_SHANGHAI KEHUA BIOENGINEERING CO.,LTD.  (KHB)"
+vendor_STRIDES ARCOLAB LIMITED
+vendor_SUB-SAHARAN BIOMEDICAL P.L.C.
+vendor_SUN PHARMACEUTICAL INDUSTRIES LTD (RANBAXY LABORATORIES LIMITED)
+vendor_SWORDS LABORATORIES
+vendor_SYSMEX AMERICA INC
+"vendor_Standard Diagnostics, Inc."
+vendor_THE MEDICAL EXPORT GROUP BV
+vendor_TURE PHARMACEUTICALS & MEDICAL SUPPLIES P.L.C.
+"vendor_Trinity Biotech, Plc"
+vendor_WAGENIA
+vendor_ZEPHYR BIOMEDICALS
+country_Afghanistan
+country_Angola
+country_Belize
+country_Benin
+country_Botswana
+country_Burkina Faso
+country_Burundi
+country_Cameroon
+"country_Congo, DRC"
+country_CÃ´te d'Ivoire
+country_Dominican Republic
+country_Ethiopia
+country_Ghana
+country_Guatemala
+country_Guinea
+country_Guyana
+country_Haiti
+country_Kazakhstan
+country_Kenya
+country_Kyrgyzstan
+country_Lebanon
+country_Lesotho
+country_Liberia
+country_Libya
+country_Malawi
+country_Mali
+country_Mozambique
+country_Namibia
+country_Nigeria
+country_Pakistan
+country_Rwanda
+country_Senegal
+country_Sierra Leone
+country_South Africa
+country_South Sudan
+country_Sudan
+country_Swaziland
+country_Tanzania
+country_Togo
+country_Uganda
+country_Vietnam
+country_Zambia
+country_Zimbabwe
+fulfill via_Direct Drop
+fulfill via_From RDC
+dosage form_Capsule
+dosage form_Chewable/dispersible tablet
+dosage form_Chewable/dispersible tablet - FDC
+dosage form_Delayed-release capsules
+dosage form_Delayed-release capsules - blister
+dosage form_Injection
+dosage form_Oral powder
+dosage form_Oral solution
+dosage form_Oral suspension
+dosage form_Powder for oral solution
+dosage form_Tablet
+dosage form_Tablet - FDC
+dosage form_Tablet - FDC + blister
+dosage form_Tablet - FDC + co-blister
+dosage form_Tablet - blister
+dosage form_Test kit
+dosage form_Test kit - Ancillary
+sub classification_ACT
+sub classification_Adult
+sub classification_HIV test
+sub classification_HIV test - Ancillary
+sub classification_Malaria
+sub classification_Pediatric
+vendor_risk_tier
+inter_Air_x_highrisk
+inter_Air Charter_x_highrisk
+inter_Ocean_x_highrisk
+inter_Truck_x_highrisk
+inter_Unknown_x_highrisk

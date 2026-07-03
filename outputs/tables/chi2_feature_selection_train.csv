@@ -1,0 +1,7 @@
+feature,chi2,p_value,dof,selected
+shipment mode,169.21,1.8861890659222035e-32,8,True
+vendor,451.16,1.9658837746233839e-35,136,True
+country,468.21,1.0803838019310941e-54,84,True
+fulfill via,265.33,2.417945625694759e-58,2,True
+dosage form,167.73,2.5076434239284183e-20,32,True
+sub classification,56.07,1.989207949468095e-08,10,True
