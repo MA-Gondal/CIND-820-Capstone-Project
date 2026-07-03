@@ -1,0 +1,22 @@
+column,reason
+delivered to client date,leakage — unavailable at order placement
+delivery recorded date,leakage — unavailable at order placement
+line item insurance (usd),leakage — unavailable at order placement
+project code,identifier — no operational meaning
+pq #,identifier — no operational meaning
+po / so #,identifier — no operational meaning
+asn/dn #,identifier — no operational meaning
+pq first sent to client date,excluded by Milestone 2 feature design
+po sent to vendor date,excluded by Milestone 2 feature design
+managed by,excluded by Milestone 2 feature design
+item description,excluded by Milestone 2 feature design
+molecule/test type,excluded by Milestone 2 feature design
+brand,excluded by Milestone 2 feature design
+dosage,excluded by Milestone 2 feature design
+unit of measure (per pack),excluded by Milestone 2 feature design
+manufacturing site,excluded by Milestone 2 feature design
+pack price,excluded by Milestone 2 feature design
+unit price,excluded by Milestone 2 feature design
+first line designation,excluded by Milestone 2 feature design
+product group,excluded by Milestone 2 feature design
+vendor inco term,excluded by Milestone 2 feature design

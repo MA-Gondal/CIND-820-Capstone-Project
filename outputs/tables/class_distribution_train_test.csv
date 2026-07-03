@@ -1,0 +1,4 @@
+,train_count,train_pct,test_count,test_pct
+0 (On-time),7310,88.51,1828,88.52
+1 (At-risk),553,6.7,138,6.68
+2 (Delayed),396,4.79,99,4.79
