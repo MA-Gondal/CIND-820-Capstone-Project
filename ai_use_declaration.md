@@ -22,7 +22,14 @@ in accordance with TMU Policy 60 and the verification plan established in Milest
 ---
 
 ## Milestone 3 — Initial Results & Coding
-*(To be completed)*
+
+| Activity | Use Description | Verification Method | Status |
+|---|---|---|---|
+| Code generation (pipeline modules and notebooks) | Used Claude (Anthropic) to draft `src/preprocessing.py`, `src/features.py`, `src/models.py` and notebooks 02–05 implementing the pipeline design specified in the Milestone 2 report | Every notebook executed locally end-to-end on my machine; outputs inspected cell by cell; class counts verified against the Milestone 2 report (9,138 / 691 / 495); CV and test tables cross-checked between notebook display, saved CSVs, and markdown text; discrepancies corrected before commit | Verified |
+| Debugging and environment support | Used to diagnose a missing `pyarrow` dependency (added to requirements.txt), a missing `imbalanced-learn` install, `.gitignore` setup, and a logistic regression convergence issue (resolved with within-fold StandardScaler) | Each fix applied and re-run locally; final runs complete without errors or warnings | Verified |
+| Methodology discussion | Used to reason through design decisions: cross-reference recovery for weight/freight, vendor risk tier threshold choice, one-sided Wilcoxon justification with n=5 folds, SMOTE vs class-weight interpretation | Each decision reviewed against the Milestone 2 design and course materials; I can explain and defend every choice independently | Verified |
+| Documentation drafting | Used to draft notebook markdown narration and README run instructions | All narration reviewed and edited into my own words; numbers updated to match my own local runs where they differed from the assistant's reference runs | Verified |
+| Analytical interpretation of results | Interpretation of CV rankings, confusion matrix, per-class weaknesses, and generalization gap developed jointly through discussion; final written interpretation reviewed and owned by me | Verified against my own run outputs and saved artifact tables | Verified |
 
 ---
 
