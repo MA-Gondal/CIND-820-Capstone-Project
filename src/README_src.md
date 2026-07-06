@@ -1,15 +1,11 @@
-# src/ — Modular Python Scripts
+# src — Modular Pipeline Scripts
 
-This directory will contain standalone Python scripts (.py) extracted from the 
-Jupyter notebooks for each pipeline stage. Scripts will be added progressively 
-from Milestone 3 onward.
+Reusable logic imported by the notebooks (the notebooks narrate; these modules do the work).
 
-## Planned Scripts
-
-| Script | Pipeline Stage | Milestone |
+| Module | Pipeline stage | What it contains |
 |---|---|---|
-| `preprocessing.py` | Target engineering, cleaning, train-test split | M3 |
-| `feature_engineering.py` | Imputation, encoding, PCA, interaction features | M3 |
-| `train.py` | Model training and cross-validation | M3 |
-| `evaluate.py` | Metrics, Wilcoxon test, SHAP plots | M4 |
-| `safety_stock.py` | Safety-stock simulation and cost-benefit summary | M4 |
+| `preprocessing.py` | Stages 2–3 | Date parsing, 3-class target engineering, cross-reference recovery for weight/freight, leakage field removal, stratified 80/20 split with saved indices |
+| `features.py` | Stage 4 | `FeatureEngineer` class (fit on train only / transform any split): mode-stratified imputation with flags, log1p transforms, chi-squared selection, one-hot encoding, vendor risk tier |
+| `models.py` | Stage 5 | Model factory (LR / RF / XGBoost), stratified 5-fold CV loop with fold-level SMOTE, XGBoost early stopping, and per-fold metrics |
+
+All statistics are learned from the training split only — see the fit/transform contract in `features.py`.
