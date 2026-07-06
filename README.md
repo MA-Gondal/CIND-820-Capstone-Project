@@ -61,7 +61,7 @@ CIND820-Capstone-Project/
 | 1 | `notebooks/M2_EDA.ipynb` | Exploratory data analysis (Milestone 2) | figures, profiling report | ~2 min |
 | 2 | `notebooks/02_preprocessing.ipynb` | Target engineering, cross-reference recovery, leakage removal, stratified 80/20 split | `data/processed/train.parquet`, `test.parquet`, `split_indices.json` | <1 min |
 | 3 | `notebooks/03_feature_engineering.ipynb` | Imputation + flags, log1p, chi-squared selection, one-hot encoding, vendor risk tier | `X_train.parquet`, `X_test.parquet`, `feature_engineer.joblib` | ~1 min |
-| 4 | `notebooks/04_modelling.ipynb` | 3 models × 2 imbalance strategies × 5-fold stratified CV; fits final champion + baseline | CV tables, boxplot, `xgboost_champion.joblib`, `logreg_baseline.joblib` | 5–15 min |
+| 4 | `notebooks/04_modelling.ipynb` | 3 models × 2 imbalance strategies × 5-fold stratified CV; fits final champion + baseline | CV tables, boxplot, `xgboost_champion.joblib`, `logreg_baseline.joblib` | 1–3 min |
 | 5 | `notebooks/05_evaluation.ipynb` | Held-out test evaluation, confusion matrix, per-class report, Wilcoxon test | test metric tables, confusion matrix figure | <1 min |
 
 Compiled HTML versions of all executed notebooks are in `outputs/reports/`.
