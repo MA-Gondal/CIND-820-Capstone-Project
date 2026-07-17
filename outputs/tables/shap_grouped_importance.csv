@@ -1,0 +1,18 @@
+attribute,class_0,class_1,class_2,overall
+Country,0.5661,0.4359,0.9027,0.6349
+Vendor,0.8895,0.6308,0.2627,0.5944
+Freight Cost (log),0.3657,0.4548,0.601,0.4739
+Weight (log),0.3085,0.3444,0.5871,0.4134
+Line Item Quantity,0.2738,0.3345,0.548,0.3854
+Line Item Value (log),0.3603,0.3029,0.3355,0.3329
+Shipment Mode,0.3545,0.1326,0.1757,0.2209
+Dosage Form,0.1619,0.2161,0.1759,0.1846
+Sub Classification,0.0521,0.0391,0.0737,0.055
+Freight Cost Imputed Flag,0.0254,0.0355,0.0542,0.0384
+inter_Air_x_highrisk,0.0387,0.0159,0.028,0.0275
+inter_Truck_x_highrisk,0.0493,0.0099,0.0215,0.0269
+Weight Imputed Flag,0.0016,0.0174,0.0316,0.0169
+inter_Unknown_x_highrisk,0.0471,0.0,0.0,0.0157
+inter_Ocean_x_highrisk,1e-04,0.0021,0.0033,0.0018
+inter_Air Charter_x_highrisk,1e-04,0.0012,0.0012,0.0008
+Fulfill Via,0.0,0.0,0.0,0.0

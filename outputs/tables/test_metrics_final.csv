@@ -1,0 +1,3 @@
+model,test_macro_f1,test_auprc_macro,test_auprc_delayed,pred_time_s_full_test,repeated_cv_macro_f1_mean,generalization_gap
+XGBoost (final champion),0.5992,0.5942,0.4929,0.1057,0.5939,0.0053
+LogisticRegression (baseline),0.3779,0.4388,0.2071,0.0065,0.3713,0.0066

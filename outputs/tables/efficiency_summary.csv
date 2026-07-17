@@ -1,0 +1,8 @@
+measure,value
+One-off hyperparameter search (20 configs x 5 folds),7.0 min
+"Final champion fit (full training split, single thread)",3.79 s
+Final baseline fit,0.31 s
+"Champion scoring, full 2,065-row test set",0.1057 s
+Champion scoring per shipment,0.051 ms
+Champion artifact size,3.60 MB
+Baseline artifact size,0.01 MB

@@ -1,0 +1,2 @@
+z,sigma_fixed_days,fixed_buffer_days_per_shipment,total_buffer_days_fixed,total_buffer_days_dynamic,buffer_days_reduction_pct,stockouts_fixed,stockouts_dynamic,stockout_rate_fixed_pct,stockout_rate_dynamic_pct
+1.645,12.07,19.85,41000.0,30895.0,24.6,78,50,3.78,2.42
