@@ -1,0 +1,2 @@
+model,macro_f1_mean,macro_f1_std,fit_time_mean_s,selection_basis
+XGBoost (M3 default),0.5939,0.0252,2.9391,higher repeated-CV mean macro-F1

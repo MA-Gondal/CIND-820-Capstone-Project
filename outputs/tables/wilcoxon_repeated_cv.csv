@@ -1,0 +1,2 @@
+test,W,p_value,n_pairs,mean_diff_macro_f1,min_diff_macro_f1
+Wilcoxon signed-rank (one-sided),120.0,3.0517578125e-05,15,0.2226,0.1684
