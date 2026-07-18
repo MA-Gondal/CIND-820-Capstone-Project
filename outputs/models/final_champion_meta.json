@@ -7,8 +7,8 @@
   },
   "selection_basis": "higher repeated-CV mean macro-F1",
   "fit_times": {
-    "champion_fit_time_s": 3.79,
-    "baseline_fit_time_s": 0.31
+    "champion_fit_time_s": 3.61,
+    "baseline_fit_time_s": 0.3
   },
-  "tuning_wall_clock_minutes": 7.0
+  "tuning_wall_clock_minutes": 6.9
 }

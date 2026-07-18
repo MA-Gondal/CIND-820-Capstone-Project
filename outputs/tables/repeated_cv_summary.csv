@@ -1,4 +1,4 @@
 model,macro_f1_mean,macro_f1_std,auprc_mean,auprc_std,fit_time_mean_s,pred_time_mean_s
-XGBoost (M3 default),0.5939,0.0252,0.6004,0.0282,2.9391,0.041
-XGBoost (tuned candidate),0.5877,0.024,0.5948,0.029,5.1841,0.0687
-LogisticRegression (baseline),0.3713,0.0067,0.4256,0.0076,0.2959,0.0041
+XGBoost (M3 default),0.5939,0.0252,0.6004,0.0282,3.891,0.0532
+XGBoost (tuned candidate),0.5877,0.024,0.5948,0.029,6.4712,0.0954
+LogisticRegression (baseline),0.3713,0.0067,0.4256,0.0076,0.3158,0.0059
