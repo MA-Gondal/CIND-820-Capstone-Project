@@ -34,4 +34,14 @@ in accordance with TMU Policy 60 and the verification plan established in Milest
 ---
 
 ## Milestone 4 — Final Results & Report
-*(To be completed)*
+
+| Activity | Use Description | Verification Method | Status |
+|---|---|---|---|
+| Code generation (final modelling and impact modules) | Used Claude (Anthropic) to draft `src/final_models.py`, `src/impact.py`, and Notebooks 06–07 implementing the Milestone 4 agenda set out in the Milestone 3 report §7 (hyperparameter search, repeated cross-validation, deterministic final fit, SHAP attribution, cost-sensitive decision rule, safety-stock simulation) | Every notebook executed locally end-to-end; outputs inspected cell by cell; all reported numbers cross-checked between notebook display output and the saved CSV artifacts in `outputs/tables/` before commit; the Notebook 06 determinism check (bit-identical refits) verified on my machine | Verified |
+| Methodology discussion | Used to reason through design decisions: champion selection criterion when tuned and default configurations tie within fold noise, leakage-free selection of the cost-sensitive decision weights on out-of-fold training predictions, class-mixture variance formulation of the Milestone 1 safety-stock formula, and expressing buffers in days of cover given the absence of demand data | Each decision reviewed against the Milestone 1 design, Milestone 2/3 reports, and course materials; I can explain and defend every choice independently | Verified |
+| Documentation and report drafting | Used to draft notebook markdown narration, README updates, and prose sections of the final report | All narration and report text reviewed and edited into my own words; every quantitative claim traced to a committed artifact from my own local runs | Verified |
+| Literature comparison support | Used to help structure the comparison between this project's results and prior work identified in Milestone 2 | Every cited source personally accessed and verified against the original publication; no source cited that I have not read | Verified |
+
+---
+
+*(End of declaration)*
