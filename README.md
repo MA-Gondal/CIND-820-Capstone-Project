@@ -25,7 +25,7 @@ for procurement planners in global health supply chains.
 - **Name:** USAID SCMS Delivery History Dataset
 - **Source:** https://www.kaggle.com/datasets/princehobby/supply-chain-shipment-dataset
 - **Records:** 10,324 rows, 33 columns
-- **Coverage:** 2006–2015, 70+ countries
+- **Coverage:** 2006–2015, 43 destination countries
 ---
 
 ## Repository Structure
