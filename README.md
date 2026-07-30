@@ -88,7 +88,7 @@ reproducible from the committed code and data.
 | M2 — Architecture & Data Audit | ✅ Complete | EDA, pipeline, literature review |
 | M3 — Initial Results | ✅ Complete | Preprocessing→evaluation pipeline, champion vs baseline, initial metrics |
 | M4 — Final Results | ✅ Complete | Hyperparameter search, repeated CV, champion selection, SHAP (RQ1), cost-sensitive decision rule, safety-stock simulation (RQ3), final report |
-| M5 — Presentation | ⏳ Upcoming | Live demo and Q&A |
+| M5 — Presentation | ✅ Complete | Live demo and Q&A |
 
 ---
 
